@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 1fr 0.1fr;
+}
+
+header a {
+  color: white;
+}
+
+#search {
+  display: flex;
+}
+
+#search input {
+  margin-left: 10px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+#headerHomeIcon {
+  justify-self: start;
+}
+
+#headerTitle {
+  justify-self: center;
+}
+
+#headerCartIcon {
+  justify-self: end;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+nav ul li {
+  padding-bottom: 5px;
+}
+
+nav ul li:hover {
+  color: blue;
+}
+
+main {
+  flex: 0.9;
+  padding-top: 20px;
+  min-height: 1600px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.25fr 1fr 0.25fr;
+  column-gap: 20px;
+}
+/* 
+.category-product-title {
+  grid-column: 1 / span 3;
+  color: darkslategray;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-left: 10px;
+} */
+
+/* .category-product-image-container {
+  padding: 10px;
+  width: 60%;
+} */
+
+/* .category-product-image-container img {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .category-product-info-header {
+  display: flex;
+}
+
+.category-product-info-finance-price {
+  color: darkslategray;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.category-product-info-dimensions,
+.category-product-info-capacity {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-product-info-dimensions h3,
+.category-product-info-capacity h3,
+.category-product-info-features h3 {
+  color: darkslategray;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.category-product-info-features li {
+  padding-top: 5px;
+}
+
+.category-product-info-stock {
+  padding-left: 10px;
+} */
+
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+  }
+}
