@@ -15,7 +15,7 @@ It simulates a functional e-commerce flow using `json-server` to provide mock AP
 ## 📦 Features
 
 ✅ **Category-Based Product Browsing**  
-→ Users can browse electronic items grouped by category (e.g., laptops, phones, accessories).
+→ Users can browse electronic items grouped by category (e.g., Fridges, Kettles, Televisions).
 
 ✅ **Product Detail Page**  
 → Clicking on a product opens a dedicated detail view with descriptions and pricing.
@@ -28,34 +28,6 @@ It simulates a functional e-commerce flow using `json-server` to provide mock AP
 
 ✅ **Responsive Design**  
 → Fully usable on desktop, tablet, and mobile devices.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/e-store.git
-cd e-store
-```
-
-### 2. Install Dependencies
-```bash
-npm install
-```
-
-### 3. Start the JSON Server
-```bash
-npx json-server --watch db.json --port 3001
-```
-
-### 4. Run the App
-```bash
-npm start
-```
-
-The app will run at [http://localhost:3000](http://localhost:3000)  
-The mock API runs on [http://localhost:3001](http://localhost:3001)
 
 ---
 
@@ -83,5 +55,5 @@ This project helped me:
 
 ## 💬 Contact
 
-Made by [Your Name / GitHub ID]  
+Made by Emily Chung (twih1203@gmail.com) 
 For questions or feedback, feel free to reach out!
