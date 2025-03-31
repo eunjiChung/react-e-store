@@ -1,5 +1,5 @@
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "http://localhost:3000";
 
 const fetcher = async (url) => {
     let responseObject = { errorMessage: '', data: [] };
